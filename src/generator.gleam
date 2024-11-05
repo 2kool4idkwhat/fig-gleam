@@ -5,7 +5,6 @@ import glormat as fmt
 
 /// Generates and prints fake IPv4 addresses
 /// given amount of times
-@internal
 pub fn print_ipv4(counter: Int) {
   case counter < 1 {
     True -> Nil

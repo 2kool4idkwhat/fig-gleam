@@ -1,5 +1,0 @@
-{ buildGleamApplication }:
-
-buildGleamApplication {
-  src = ./.;
-}

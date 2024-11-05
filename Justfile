@@ -1,8 +1,6 @@
 build:
 	gleam run -m gleescript
-
-nix-build:
-    nix build
+	chmod +x fig
 
 run +ARGS="":
 	gleam run -- {{ ARGS }}

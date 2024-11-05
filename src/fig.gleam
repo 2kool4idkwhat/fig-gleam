@@ -47,7 +47,6 @@ fn parse_arg(arg: String) {
   }
 }
 
-@internal
 pub fn get_amount(arg: String) -> Int {
   case int.parse(arg) {
     Ok(num) -> num
